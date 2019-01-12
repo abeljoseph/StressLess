@@ -1,4 +1,4 @@
-package uwaterloo.jinhwancharlielew.ca.peachio;
+package uwaterloo.jinhwancharlielew.ca.stressless;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
