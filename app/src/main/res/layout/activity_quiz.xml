@@ -26,7 +26,7 @@
 
     <ScrollView
         style="@android:style/Widget.DeviceDefault.ScrollView"
-        android:layout_width="365dp"
+        android:layout_width="361dp"
         android:layout_height="554dp"
         android:scrollbarStyle="insideInset"
         tools:layout_editor_absoluteX="3dp"
