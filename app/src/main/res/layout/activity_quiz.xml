@@ -10,27 +10,49 @@
         android:id="@+id/imageView"
         android:layout_width="64dp"
         android:layout_height="35dp"
-        app:srcCompat="@drawable/logo_no_words"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="6dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_no_words" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="230dp"
         android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="@font/LANENAR_"
         android:text="           StressLess Test"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="6dp" />
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         style="@android:style/Widget.DeviceDefault.ScrollView"
         android:layout_width="361dp"
         android:layout_height="554dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
         android:scrollbarStyle="insideInset"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="50dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -202,7 +224,7 @@
 
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -254,7 +276,7 @@
                 android:text="3. Describe Which Best Fits You" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -263,7 +285,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -272,7 +294,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -281,7 +303,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -290,7 +312,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -299,7 +321,7 @@
                 tools:layout_editor_absoluteY="306dp" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -308,7 +330,7 @@
                 tools:layout_editor_absoluteY="334dp" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioButton11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -317,7 +339,7 @@
                 tools:layout_editor_absoluteY="366dp" />
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/radioButton12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -326,7 +348,7 @@
                 tools:layout_editor_absoluteY="398dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -335,14 +357,14 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
                 android:text="5. Describe Which Best Fits You" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -351,7 +373,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -360,7 +382,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -369,7 +391,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -378,7 +400,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -387,7 +409,7 @@
                 tools:layout_editor_absoluteY="306dp" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton19"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -396,7 +418,7 @@
                 tools:layout_editor_absoluteY="334dp" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioButton20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -405,7 +427,7 @@
                 tools:layout_editor_absoluteY="366dp" />
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/radioButton21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -414,7 +436,7 @@
                 tools:layout_editor_absoluteY="398dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -423,14 +445,14 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
                 android:text="7. Describe Which Best Fits You" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton23"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -439,7 +461,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -448,7 +470,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -457,7 +479,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -466,7 +488,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -475,7 +497,7 @@
                 tools:layout_editor_absoluteY="306dp" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton28"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -484,7 +506,7 @@
                 tools:layout_editor_absoluteY="334dp" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioButton29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -493,7 +515,7 @@
                 tools:layout_editor_absoluteY="366dp" />
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/radioButton30"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -502,7 +524,7 @@
                 tools:layout_editor_absoluteY="398dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton31"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -511,14 +533,14 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
                 android:text="9. Describe Which Best Fits You" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton32"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -527,7 +549,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton33"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -536,7 +558,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton34"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -545,7 +567,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton35"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -554,7 +576,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton36"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -563,14 +585,14 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
                 android:text="10. Describe Which Best Fits You" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton37"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -579,7 +601,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton38"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -588,7 +610,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton39"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -597,7 +619,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton40"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -606,7 +628,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton41"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -615,14 +637,14 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
                 android:text="11. Describe Which Best Fits You" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton42"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -631,7 +653,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton43"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -640,7 +662,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -649,7 +671,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
@@ -658,7 +680,7 @@
                 tools:layout_editor_absoluteY="430dp" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton46"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/LANENAR_"
