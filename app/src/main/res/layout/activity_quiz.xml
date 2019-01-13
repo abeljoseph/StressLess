@@ -6,29 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".quiz">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="64dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/logo_no_words"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/LANENAR_"
+        android:text="           StressLess Test"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp" />
+
     <ScrollView
         style="@android:style/Widget.DeviceDefault.ScrollView"
-        android:layout_width="368dp"
+        android:layout_width="365dp"
         android:layout_height="554dp"
         android:scrollbarStyle="insideInset"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="6dp">
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="50dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="top|fill"
             android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="154dp"
-                android:layout_height="54dp"
-                android:fontFamily="@font/LANENAR_"
-                android:text="StressLess Test"
-                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="16dp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -657,12 +665,13 @@
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
+
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View Results"
                 android:fontFamily="@font/LANENAR_"
+                android:text="View Results"
                 tools:layout_editor_absoluteX="111dp"
                 tools:layout_editor_absoluteY="512dp" />
         </LinearLayout>
