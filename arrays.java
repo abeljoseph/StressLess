@@ -1,8 +1,33 @@
-string stress_name, stress_description = new Array(5);
-string behavioral_SR, emotional_SR, physical_SR, cognitive_SR, social_SR = new Array(3);
-string personality_name, personality_description = new Array(16);
-string dutyfiller_SR, mechanic_SR,	nurturer_SR, artist_SR,	protector_SR, idealist_SR, scientist_SR, thinker_SR, doer_SR, guardian_SR, performer_SR, caregiver_SR, inspirer_SR, giver_SR, visionary_SR, executive_SR = new Array(3);
-string habits_SR = new Array(10);
+var stress_name = new Array(5);
+var stress_description = new Array(5);
+
+var behavioral_SR = new Array(5);
+var emotional_SR = new Array(5);
+var physical_SR = new Array(5);
+var cognitive_SR = new Array(5);
+var social_SR = new Array(3);
+
+var personality_name = new Array(16);
+var personality_description = new Array(16);
+
+var dutyfiller_SR = new Array(3);
+var mechanic_SR = new Array(3);
+var nurturer_SR = new Array(3);
+var artist_SR = new Array(3);
+var protector_SR = new Array(3);
+var idealist_SR = new Array(3);
+var scientist_SR = new Array(3);
+var thinker_SR = new Array(3);
+var doer_SR = new Array(3);
+var guardian_SR = new Array(3);
+var performer_SR = new Array(3);
+var caregiver_SR = new Array(3);
+var inspirer_SR = new Array(3);
+var giver_SR = new Array(3);
+var visionary_SR = new Array(3);
+var executive_SR = new Array(3);
+
+var habits_SR = new Array(10);
 
 stress_name = ["Behavioral Stress", "Emotional Stress", "Physical Stress", "Cognitive Stress", "Social Stress"];
 stress_description = ["Not Available", 
