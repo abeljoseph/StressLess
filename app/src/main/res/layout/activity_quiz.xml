@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="StressLess Test"
+        android:fontFamily = "@font/LANENAR_"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -19,14 +21,16 @@
         android:layout_width="89dp"
         android:layout_height="22dp"
         android:text="Complete the  "
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteY="65dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="236dp"
         android:layout_height="22dp"
         android:text="1. Choose Your Personality Type:"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="109dp" />
 
@@ -35,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ISTJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="14dp"
         tools:layout_editor_absoluteY="147dp" />
 
@@ -43,6 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ISFJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="14dp"
         tools:layout_editor_absoluteY="179dp" />
 
@@ -51,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INFJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="14dp"
         tools:layout_editor_absoluteY="211dp" />
 
@@ -59,6 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INTJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="14dp"
         tools:layout_editor_absoluteY="243dp" />
 
@@ -67,6 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ISTP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="147dp" />
 
@@ -75,6 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ISFP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="179dp" />
 
@@ -83,6 +93,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INFP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="211dp" />
 
@@ -91,6 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INTP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="243dp" />
 
@@ -99,6 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ESTP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="147dp" />
 
@@ -107,6 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ESFP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="179dp" />
 
@@ -115,6 +129,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ENFP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="211dp" />
 
@@ -123,6 +138,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ENTP"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="243dp" />
 
@@ -131,6 +147,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ESTJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="258dp"
         tools:layout_editor_absoluteY="147dp" />
 
@@ -139,6 +156,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ESFJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="258dp"
         tools:layout_editor_absoluteY="179dp" />
 
@@ -147,6 +165,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ENFJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="258dp"
         tools:layout_editor_absoluteY="211dp" />
 
@@ -155,14 +174,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ENTJ"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="258dp"
         tools:layout_editor_absoluteY="243dp" />
 
     <ScrollView
         android:layout_width="363dp"
-        android:layout_height="226dp"
+        android:layout_height="95dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="335dp">
+        tools:layout_editor_absoluteY="466dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -175,6 +195,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2. Describe Which Best Fits You"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="306dp" />
 
@@ -183,6 +204,43 @@
         android:layout_width="210dp"
         android:layout_height="22dp"
         android:text="Meyer's Briggs Personality Test"
+        android:fontFamily = "@font/LANENAR_"
         tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteY="65dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:fontFamily = "@font/LANENAR_"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:fontFamily = "@font/LANENAR_"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:fontFamily = "@font/LANENAR_"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:fontFamily = "@font/LANENAR_"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="430dp" />
 </android.support.constraint.ConstraintLayout>
