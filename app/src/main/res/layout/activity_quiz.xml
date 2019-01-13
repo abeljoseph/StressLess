@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StressLess Test"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="89dp"
+        android:layout_height="22dp"
+        android:text="Complete the  "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="236dp"
+        android:layout_height="22dp"
+        android:text="1. Choose Your Personality Type:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISTJ"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISFJ"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFJ"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTJ"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISTP"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISFP"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFP"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTP"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTP"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESFP"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENFP"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTP"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTJ"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESFJ"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENFJ"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTJ"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <ScrollView
+        android:layout_width="363dp"
+        android:layout_height="226dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="335dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Describe Which Best Fits You"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="210dp"
+        android:layout_height="22dp"
+        android:text="Meyer's Briggs Personality Test"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="51dp" />
+</android.support.constraint.ConstraintLayout>
