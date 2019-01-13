@@ -28,7 +28,7 @@
         android:layout_marginEnd="138dp"
         android:layout_marginRight="138dp"
         android:layout_marginBottom="10dp"
-        android:fontFamily="@font/LANENAR_"
+        android:fontFamily="@font/lanenar_"
         android:text="           StressLess Test"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
@@ -64,7 +64,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="319dp"
                 android:layout_height="39dp"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="Please Complete the Meyer's Briggs Personality Test"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="65dp" />
@@ -73,7 +73,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="236dp"
                 android:layout_height="22dp"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="1. Choose Your Personality Type:"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="109dp" />
@@ -82,7 +82,7 @@
                 android:id="@+id/checkBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ISTJ"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="147dp" />
@@ -91,7 +91,7 @@
                 android:id="@+id/checkBox2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ISFJ"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="179dp" />
@@ -100,7 +100,7 @@
                 android:id="@+id/checkBox3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="INFJ"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="211dp" />
@@ -109,7 +109,7 @@
                 android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="INTJ"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="243dp" />
@@ -118,7 +118,7 @@
                 android:id="@+id/checkBox5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ISTP"
                 tools:layout_editor_absoluteX="95dp"
                 tools:layout_editor_absoluteY="147dp" />
@@ -127,7 +127,7 @@
                 android:id="@+id/checkBox6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ISFP"
                 tools:layout_editor_absoluteX="95dp"
                 tools:layout_editor_absoluteY="179dp" />
@@ -136,7 +136,7 @@
                 android:id="@+id/checkBox7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="INFP"
                 tools:layout_editor_absoluteX="95dp"
                 tools:layout_editor_absoluteY="211dp" />
@@ -145,7 +145,7 @@
                 android:id="@+id/checkBox8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="INTP"
                 tools:layout_editor_absoluteX="95dp"
                 tools:layout_editor_absoluteY="243dp" />
@@ -154,7 +154,7 @@
                 android:id="@+id/checkBox9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ESTP"
                 tools:layout_editor_absoluteX="174dp"
                 tools:layout_editor_absoluteY="147dp" />
@@ -163,7 +163,7 @@
                 android:id="@+id/checkBox10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ESFP"
                 tools:layout_editor_absoluteX="174dp"
                 tools:layout_editor_absoluteY="179dp" />
@@ -172,7 +172,7 @@
                 android:id="@+id/checkBox11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ENFP"
                 tools:layout_editor_absoluteX="174dp"
                 tools:layout_editor_absoluteY="211dp" />
@@ -181,7 +181,7 @@
                 android:id="@+id/checkBox12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ENTP"
                 tools:layout_editor_absoluteX="174dp"
                 tools:layout_editor_absoluteY="243dp" />
@@ -190,7 +190,7 @@
                 android:id="@+id/checkBox13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ESTJ"
                 tools:layout_editor_absoluteX="258dp"
                 tools:layout_editor_absoluteY="147dp" />
@@ -199,7 +199,7 @@
                 android:id="@+id/checkBox14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ESFJ"
                 tools:layout_editor_absoluteX="258dp"
                 tools:layout_editor_absoluteY="179dp" />
@@ -208,7 +208,7 @@
                 android:id="@+id/checkBox15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ENFJ"
                 tools:layout_editor_absoluteX="258dp"
                 tools:layout_editor_absoluteY="211dp" />
@@ -217,7 +217,7 @@
                 android:id="@+id/checkBox16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="ENTJ"
                 tools:layout_editor_absoluteX="258dp"
                 tools:layout_editor_absoluteY="243dp" />
@@ -227,7 +227,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="2. Describe Which Best Fits You"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="306dp" />
@@ -236,7 +236,7 @@
                 android:id="@+id/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="334dp" />
@@ -245,7 +245,7 @@
                 android:id="@+id/radioButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="366dp" />
@@ -254,7 +254,7 @@
                 android:id="@+id/radioButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="398dp" />
@@ -263,7 +263,7 @@
                 android:id="@+id/radioButton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -272,14 +272,14 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="3. Describe Which Best Fits You" />
 
             <RadioButton
                 android:id="@+id/radioButton5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -288,7 +288,7 @@
                 android:id="@+id/radioButton6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -297,7 +297,7 @@
                 android:id="@+id/radioButton7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -306,7 +306,7 @@
                 android:id="@+id/radioButton8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -315,7 +315,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="4. Describe Which Best Fits You"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="306dp" />
@@ -324,7 +324,7 @@
                 android:id="@+id/radioButton10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="334dp" />
@@ -333,7 +333,7 @@
                 android:id="@+id/radioButton11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="366dp" />
@@ -342,7 +342,7 @@
                 android:id="@+id/radioButton12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="398dp" />
@@ -351,7 +351,7 @@
                 android:id="@+id/radioButton13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -360,14 +360,14 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="5. Describe Which Best Fits You" />
 
             <RadioButton
                 android:id="@+id/radioButton14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -376,7 +376,7 @@
                 android:id="@+id/radioButton15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -385,7 +385,7 @@
                 android:id="@+id/radioButton16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -394,7 +394,7 @@
                 android:id="@+id/radioButton17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -403,7 +403,7 @@
                 android:id="@+id/textView18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="6. Describe Which Best Fits You"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="306dp" />
@@ -412,7 +412,7 @@
                 android:id="@+id/radioButton19"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="334dp" />
@@ -421,7 +421,7 @@
                 android:id="@+id/radioButton20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="366dp" />
@@ -430,7 +430,7 @@
                 android:id="@+id/radioButton21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="398dp" />
@@ -439,7 +439,7 @@
                 android:id="@+id/radioButton22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -448,14 +448,14 @@
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="7. Describe Which Best Fits You" />
 
             <RadioButton
                 android:id="@+id/radioButton23"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -464,7 +464,7 @@
                 android:id="@+id/radioButton24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -473,7 +473,7 @@
                 android:id="@+id/radioButton25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -482,7 +482,7 @@
                 android:id="@+id/radioButton26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -491,7 +491,7 @@
                 android:id="@+id/textView20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="8. Describe Which Best Fits You"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="306dp" />
@@ -500,7 +500,7 @@
                 android:id="@+id/radioButton28"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="334dp" />
@@ -509,7 +509,7 @@
                 android:id="@+id/radioButton29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="366dp" />
@@ -518,7 +518,7 @@
                 android:id="@+id/radioButton30"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="398dp" />
@@ -527,7 +527,7 @@
                 android:id="@+id/radioButton31"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -536,14 +536,14 @@
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="9. Describe Which Best Fits You" />
 
             <RadioButton
                 android:id="@+id/radioButton32"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -552,7 +552,7 @@
                 android:id="@+id/radioButton33"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -561,7 +561,7 @@
                 android:id="@+id/radioButton34"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -570,7 +570,7 @@
                 android:id="@+id/radioButton35"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -579,7 +579,7 @@
                 android:id="@+id/radioButton36"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -588,14 +588,14 @@
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="10. Describe Which Best Fits You" />
 
             <RadioButton
                 android:id="@+id/radioButton37"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -604,7 +604,7 @@
                 android:id="@+id/radioButton38"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -613,7 +613,7 @@
                 android:id="@+id/radioButton39"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -622,7 +622,7 @@
                 android:id="@+id/radioButton40"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -631,7 +631,7 @@
                 android:id="@+id/radioButton41"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -640,14 +640,14 @@
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="11. Describe Which Best Fits You" />
 
             <RadioButton
                 android:id="@+id/radioButton42"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -656,7 +656,7 @@
                 android:id="@+id/radioButton43"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -665,7 +665,7 @@
                 android:id="@+id/radioButton44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -674,7 +674,7 @@
                 android:id="@+id/radioButton45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -683,7 +683,7 @@
                 android:id="@+id/radioButton46"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="RadioButton"
                 tools:layout_editor_absoluteX="14dp"
                 tools:layout_editor_absoluteY="430dp" />
@@ -692,7 +692,7 @@
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/LANENAR_"
+                android:fontFamily="@font/lanenar_"
                 android:text="View Results"
                 tools:layout_editor_absoluteX="111dp"
                 tools:layout_editor_absoluteY="512dp" />
